@@ -7,6 +7,7 @@
       absolute>
       <v-spacer v-if="isMobile"></v-spacer>
       <img src="@/assets/svg/logo-va.svg" :height="isMobile ? '70px' : '100px'" @click="goTo()"/>
+      <title>TAXI</title>
       <v-spacer></v-spacer>
       <div class="d-flex align-center" style="gap: 32px;" v-if="!isMobile">
         <v-btn
@@ -158,6 +159,13 @@ body{
 }
 
 @media (max-width: 450px) {
+  .v-main{
+  background-image: url("@/assets/img/taxiphone.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  };
+
   .v-app-bar{
     width: 100%;
     .v-toolbar__content{
