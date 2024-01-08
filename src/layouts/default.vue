@@ -11,6 +11,7 @@
       <v-spacer></v-spacer>
       <div class="d-flex align-center" style="gap: 32px;" v-if="!isMobile">
         <v-btn
+          href="tel:(914)564-0279"
           class="links"
           height="60"
           elevation="0">
