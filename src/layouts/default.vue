@@ -7,7 +7,7 @@
       absolute>
       <v-spacer v-if="isMobile"></v-spacer>
       <img src="@/assets/svg/logo-va.svg" :height="isMobile ? '70px' : '100px'" @click="goTo()"/>
-      <title>TAXI</title>
+      <h1>TAXI</h1>
       <v-spacer></v-spacer>
       <div class="d-flex align-center" style="gap: 32px;" v-if="!isMobile">
         <v-btn
