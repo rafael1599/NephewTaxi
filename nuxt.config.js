@@ -4,8 +4,8 @@ export default {
   srcDir: 'src',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - va-fe',
-    title: 'va-fe',
+    titleTemplate: '%s - V&A',
+    title: 'Taxi',
     htmlAttrs: {
       lang: 'en'
     },
